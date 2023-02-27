@@ -1,8 +1,7 @@
 # LLDB Crash
 
-This code crashes LLDB when stepping into the [`modify`](main.swift#L8) function.
-It doesn't crash when the generic from `Wrapper` is removed.
+This code crashes LLDB when stepping into the [`crash`](main.swift#L4) function.
 
 ## Running
 
-Run `make debug`, this will start lldb and set a breakpoint. Use the `run` command to launch the process. Once lldb hits the breakpoint it will crash.
+Run `make debug`, this will start lldb, set a breakpoint and run the exectuable.

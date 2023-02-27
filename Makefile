@@ -8,5 +8,5 @@ clean:
 	rm -rf main.dSYM
 
 debug: main
-	lldb main --one-line "breakpoint set --name modify"
+	lldb main --one-line "breakpoint set --name crash" --one-line run
 
